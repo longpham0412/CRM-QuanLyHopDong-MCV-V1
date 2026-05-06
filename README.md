@@ -26,9 +26,13 @@ CREATE DATABASE crmonline_pro;
 Bước 2: Clone dự án về máy Mở terminal và chạy lệnh:
 Bash
 git clone [https://github.com/longpham0412/CRM-Module-HopDong.git](https://github.com/longpham0412/CRM-Module-HopDong.git)
+
 Bước 3: Cấu hình kết nối Điều hướng đến file src/main/resources/application.yaml để kiểm tra cấu hình kết nối database. Mặc định dự án đang sử dụng: 
+
 •	Username: root
+
 •	Password: (để trống)
+
 Bước 4: Chạy ứng dụng Mở project bằng IDE và chạy file DemoApplication.java. Ứng dụng sẽ khởi chạy trên port 8080 với context-path là /crm-ver1. 
 
 http://localhost:8080/crm-ver1/api/hopdong
